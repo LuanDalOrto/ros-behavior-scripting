@@ -69,9 +69,7 @@
 (emo-expr-spec "positive" "happySurprise"       0.1 0.4 0.8 2 8)
 (emo-expr-spec "positive" "engaged"             0.1 0.6 1.0 2 8)
 (emo-expr-spec "positive" "surprised"           0.1 0.4 0.6 2 8)
-(emo-expr-spec "positive"  "recoil"           0.05  0.6 0.9 1 2)
-(emo-expr-spec "positive"  "sad"              0.05  0.6 0.9 1 2)
-(emo-expr-spec "positive"  "worry"            0.05  0.6 0.9 1 2)
+
 ; bored face tracking
 (emo-expr-spec "bored" "happy"               0.2 0.6 1 2 8)
 (emo-expr-spec "bored" "happy.001"           0.2 0.6 1.0 2 8)

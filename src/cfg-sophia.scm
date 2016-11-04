@@ -38,26 +38,16 @@
 ;      (ListLink (Concept "worry") (Number 5) (Number 1))))
 
 ; new-arrival face tracking
-(emo-expr-spec "new-arrival" "happy"            0.2 0.6 1.0 2 5)
-(emo-expr-spec "new-arrival" "happy.001"        0.2 0.6 1.0 2 5)
-(emo-expr-spec "new-arrival" "happy.002"        0.2 0.6 1.0 2 5)
-(emo-expr-spec "new-arrival" "happySurprise"    0.1 0.4 0.8 2 5)
-(emo-expr-spec "new-arrival" "amused"           0.2 0.5 1.0 2 5)
-(emo-expr-spec "new-arrival" "engaged"          0.1 0.6 1.0 2 8)
+(emo-expr-spec "new-arrival" "happy"            0.2 0.4 0.7 2 5)
+(emo-expr-spec "new-arrival" "happy.001"        0.2 0.4 0.7 2 5)
+(emo-expr-spec "new-arrival" "happy.002"        0.2 0.4 0.7 2 5)
+(emo-expr-spec "new-arrival" "amused"           0.2 0.4 0.7 2 5)
+(emo-expr-spec "new-arrival" "engaged"          0.1 0.6 0.7 2 8)
 
 ; Used when chatbot is not happy; also, when someone leaves. face tracking
 (emo-expr-spec "frustrated" "confused"          0.1 0.5 1.0 1.5 2.5)
-(emo-expr-spec "frustrated" "worry"             0.1 0.4 0.9 1.5 2.5)
-(emo-expr-spec "frustrated" "recoil"            0.1 0.5 0.9 1.5 2.5)
-(emo-expr-spec "frustrated" "happyDisgust"      0.1 0.5 0.9 1.5 2.5)
-(emo-expr-spec "frustrated" "surprisedSad"      0.1 0.5 0.8 1.5 2.5)
 (emo-expr-spec "frustrated" "sad"               0.05 0.5 0.8 1.5 2.5)
 (emo-expr-spec "frustrated" "irritated"         0.05 0.4 0.8 1.5 2.5)
-(emo-expr-spec "frustrated" "disgustSurprise"   0.05 0.4 0.8 1.5 2.5)
-(emo-expr-spec "frustrated" "disgust.Sad"       0.1 0.4 0.7 1.5 2.5)
-(emo-expr-spec "frustrated" "angry"             0.05 0.3 0.7 1.5 2.5)
-(emo-expr-spec "frustrated" "angrySad"          0.1 0.3 0.8 1.5 2.5)
-(emo-expr-spec "frustrated" "angryDisgust"      0.1 0.3 0.8 1.5 2.5)
 
 ; positive face tracking
 (emo-expr-spec "positive" "happy"               0.2 0.6 1 2 8)
@@ -66,14 +56,13 @@
 (emo-expr-spec "positive" "comprehending"       0.1 0.5 0.8 1 8)
 (emo-expr-spec "positive" "amused"              0.1 0.5 0.8 3 8)
 (emo-expr-spec "positive" "confused"            0.1 0.5 0.8 3 8)
-(emo-expr-spec "positive" "happySurprise"       0.1 0.4 0.8 2 8)
 (emo-expr-spec "positive" "engaged"             0.1 0.6 1.0 2 8)
 (emo-expr-spec "positive" "surprised"           0.1 0.4 0.6 2 8)
 
 ; bored face tracking
-(emo-expr-spec "bored" "happy"               0.2 0.6 1 2 8)
-(emo-expr-spec "bored" "happy.001"           0.2 0.6 1.0 2 8)
-(emo-expr-spec "bored" "happy.002"           0.2 0.6 1.0 2 8)
+(emo-expr-spec "bored" "happy"               0.2 0.6 0.8 2 8)
+(emo-expr-spec "bored" "happy.001"           0.2 0.6 0.8 2 8)
+(emo-expr-spec "bored" "happy.002"           0.2 0.6 0.8 2 8)
 (emo-expr-spec "bored" "comprehending"       0.1 0.5 0.8 1 8)
 (emo-expr-spec "bored" "amused"              0.1 0.5 0.8 3 8)
 (emo-expr-spec "bored" "confused"            0.1 0.5 0.8 3 8)

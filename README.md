@@ -1,5 +1,7 @@
 Robot Performance Scripting
 ===========================
+(Sophia5 branch - Macau robot)
+
 This repo contains performance, personality and self-awareness scripts
 for controlling the Hanson Robotics Eva robot emulator.  The emulator
 is a Blender animation of a female head.  These scripts unite, in one
